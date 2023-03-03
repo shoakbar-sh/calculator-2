@@ -20,6 +20,7 @@ body {
    flex-direction: column;
    justify-content: center;
    width: 290px;
+   background-color: rgb(18, 18, 18);
    backdrop-filter: blur(16px) saturate(180%);
    border-radius: 12px;
    border: 1px solid rgba(255, 255, 255, 0.125);
@@ -60,9 +61,17 @@ button {
    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
+button:active{
+   background: linear-gradient(45deg, transparent, #7a7676);
+}
+
 .equalsToBtn {
    width: 190%;
    border-radius: 25px;
    background: deepskyblue;
    color: white;
+}
+
+.equalsToBtn:active{
+   background: rgba(0, 191, 255, 0.796);
 }
